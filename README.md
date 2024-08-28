@@ -27,6 +27,19 @@ Pour pallier à cela, j’ai fait deux  programmes ahk que j’ai converti en fi
 Le programme azerty est fait pour coller dans une machine configurée en azerty et le programme qwerty est fait pour les machines en qwerty (il fait directement la traduction lors de la simulation d’écriture).
 Il y a également un fichier StopDaemons.bat qui permet de facilement fermer les deux processus d’arrière-plan.
 
+# Compilation
+
+I used the ahk2Exe tool to compile my ahk programs into .exe files. 
+The Paste-AZERTY-BE.ahk program is compiled in 32-bit V1.1 (it didn't work properly in 64-bit V2) and the Paste-QWERTY.ahk program is compiled in 64-bit V2.
+Given the 32-bit V1 compilation, antivirus software may not like the Paste-AZERTY-BE executable, but as you can see from the code, it's benign.
+
+-
+
+J'ai utilisé l'outil ahk2Exe pour compiler mes programmes ahk en fichiers .exe. 
+Le programme Paste-AZERTY-BE.ahk est compilé en V1.1 en 32 bits (ça ne fonctionnait pas correctement en V2 64bits) et le programme Paste-QWERTY.ahk est compilé en V2 64bits.
+Etant donné la compilation en V1 32bits, il se peut que les antivirus n'apprécient pas l'exécutable Paste-AZERTY-BE mais comme vous pouvez le voir au niveau du code, il est bénin.
+
+
 # Notes
 
 - The AZERTY script is made to copy from FR-BE keyboard to FR-BE keyboard and the QWERTY script is made to copy from FR-BE keyboard to EN US keyboard.
