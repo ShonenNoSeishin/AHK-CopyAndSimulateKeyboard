@@ -8,7 +8,9 @@ Outil qui peut aider à coller le presse-papier dans les VMs PVE ou les bureaux 
 # Supported OS
 
 This tool is only for Windows hosts
+
 -
+
 Ce programme ne peut tourner que sur Windows
 
 # Description
