@@ -39,6 +39,13 @@ J'ai utilisé l'outil ahk2Exe pour compiler mes programmes ahk en fichiers .exe.
 Le programme Paste-AZERTY-BE.ahk est compilé en V1.1 en 32 bits (ça ne fonctionnait pas correctement en V2 64bits) et le programme Paste-QWERTY.ahk est compilé en V2 64bits.
 Etant donné la compilation en V1 32bits, il se peut que les antivirus n'apprécient pas l'exécutable Paste-AZERTY-BE mais comme vous pouvez le voir au niveau du code, il est bénin.
 
+# Limitations
+
+For Paste-QWERTY program, there are two common caracters that aren't currently supported : "[" and "{". I'm currently working on it.
+
+-
+
+Pour le programme Paste-QWERTY, il y a deux caractères courants qui ne sont pas pris en charge actuellement : « [ » et « { ». J'y travaille actuellement.
 
 # Notes
 
