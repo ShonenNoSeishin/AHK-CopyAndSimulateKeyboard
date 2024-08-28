@@ -6,6 +6,7 @@ Tool that can help to paste clipboard in PVE VMs or remote desktop that can't co
 Outil qui peut aider à coller le presse-papier dans les VMs PVE ou les bureaux à distance qui ne peuvent pas copier-coller
 
 # Supported OS
+
 This tool is only for Windows hosts
 -
 Ce programme ne peut tourner que sur Windows
@@ -25,6 +26,7 @@ Le programme azerty est fait pour coller dans une machine configurée en azerty 
 Il y a également un fichier StopDaemons.bat qui permet de facilement fermer les deux processus d’arrière-plan.
 
 # Notes
+
 - The AZERTY script is made to copy from FR-BE keyboard to FR-BE keyboard and the QWERTY script is made to copy from FR-BE keyboard to EN US keyboard.
 - It's possible that the script create some bugs with your keyboard native macro so I advise you to close the daemon by executing the .bat file when you don't use these features
 
